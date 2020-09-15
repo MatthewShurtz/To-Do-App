@@ -1,1 +1,1 @@
-# A basic To-Do to track tasks
+# A basic to-do application to track tasks
