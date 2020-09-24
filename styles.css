@@ -41,7 +41,7 @@ body {
   border-radius: 5px;
   font-size: 28px;
   position: absolute;
-  top: 47%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -49,14 +49,31 @@ body {
 #add-button {
   width: 15%;
   position: absolute;
-  top: 56%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 20px;
   background-color: var(--input-color);
   border: 3px solid red;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+#add-button:hover {
+  background-color: #98fb98;
+  width: 20%;
+  font-size: 25px;
+}
+
+#task-div {
+  display: flex;
+  justify-content: center;
+  background-color: var(--input-color);
+  margin: auto 300px auto 300px;
+  padding: 400px auto 400px auto;
+  border: 5px solid black;
 }
 
 #task-list {
+  list-style: none;
 }
