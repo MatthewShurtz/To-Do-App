@@ -63,6 +63,7 @@ body {
   background-color: #98fb98;
   width: 20%;
   font-size: 25px;
+  transition: 0.1s;
 }
 
 #task-div {
@@ -76,4 +77,17 @@ body {
 
 #task-list {
   list-style: none;
+}
+
+#task-list {
+  font-size: 30px;
+}
+
+input[type="checkbox"] {
+  height: 20px;
+  width: 35px;
+}
+
+li:hover {
+  text-decoration: line-through;
 }
