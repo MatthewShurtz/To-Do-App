@@ -83,11 +83,11 @@ body {
   font-size: 30px;
 }
 
-input[type="checkbox"] {
-  height: 20px;
-  width: 35px;
-}
-
 li:hover {
   text-decoration: line-through;
+  text-decoration-color: green;
+  font-weight: bold;
+  font-size: 40px;
+  cursor: pointer;
+  transition: 0.2s;
 }
